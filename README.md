@@ -1,6 +1,6 @@
 # MSDS 670 Data Visualization Week 5 Matplotlib Part I Assignment
------------------------------------------------------------------
-The field of data science is always evolving and its roles span from data engineering to data analysis and AI/ML.  Understanding salary trends in this field is crucial for job seekers and employers to make decisions.  In this analysis I will explore what data science area earns the most money in USD, what countries pay the most and does the size of the company make a different in annual salary?
+-------------------------------------------------------------------------------
+The field of data science is always evolving and its roles span from data engineering to data analysis and AI/ML.  Understanding salary trends in this field is crucial for job seekers and employers to make decisions.  In this analysis I will explore which data science area earns the most money in USD, what countries pay the most and does the size of the company make a different in annual salary?
 
 ## DataSet
 The dataset for this study was obtained from <a href="https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data">Jobs and Salaries in Data Science</a>.  The metadata for this dataset is as follows:
@@ -16,3 +16,9 @@ The dataset for this study was obtained from <a href="https://www.kaggle.com/dat
 - `work_setting`: Work setting or environment such as *remote*, *in-person*, or *hybrid*
 - `company_location`: Country where the company is located
 - `company_size`: Size of the employer company categorized as *small (S)*, *medium (M)*, and *large (L)*
+
+-------------------------------------------------------------------------------
+### Dataset Reference
+
+Qaasim, H. (2023, December). Jobs and Salaries in Data Science.</br>Version 6.
+Retrieved December 25, 2023 from <a href="https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data">https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data</a>

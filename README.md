@@ -1,4 +1,4 @@
-# MSDS 670 Data Visualization Week 5 Matplotlib Part I Assignment
+# MSDS 670 Data Visualization Week 5 and 6 Matplotlib Part I and II Assignment
 -------------------------------------------------------------------------------
 The field of data science is always evolving and its roles span from data engineering to data analysis and AI/ML.  Understanding salary trends in this field is crucial for job seekers and employers to make decisions.  In this analysis I will explore which data science area earns the most money in USD, what countries pay the most and does the size of the company make a different in annual salary?
 

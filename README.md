@@ -22,3 +22,7 @@ The dataset for this study was obtained from <a href="https://www.kaggle.com/dat
 
 Qaasim, H. (2023, December). Jobs and Salaries in Data Science.</br>Version 6.
 Retrieved December 25, 2023 from <a href="https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data">https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data</a>
+
+-------------------------------------------------------------------------------
+### Dataset Notes
+This dataset was downloaded from kaggle.com, but the original survey was conducted by <a href="https://ai-jobs.net/salaries/2023/">ai-jobs.net</a> an AI themed job board.

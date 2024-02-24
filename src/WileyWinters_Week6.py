@@ -25,8 +25,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 
-# Set seaborn style and autoconfig
-sns.set_style('whitegrid')
+# Set seaborn autoconfig to True
 rcParams.update({'figure.autolayout': True})
 
 #
@@ -115,23 +114,20 @@ sns.barplot(data=jobs_df, x='salary_in_usd', y='job_category', hue='company_size
             hue_order=hue_order, palette=bar_colors, ci=None)
 ax.legend(['Small','Medium', 'Large'], title='Company Size')
 props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
-text1 = '\n'.join(('As companies grow, they start to',
-                   'view data as a resource that',
-                   'requires specialized planning',
-                   'and governance'))
-text2 = '\n'.join(('Large companies pay well for',
-                   'leadership, management, and',
-                   'strategy.  Indicating this is a',
-                   'priority for them.'))
-text3 = '\n'.join(('Medium sized companies pay', 
+text1 = '\n'.join(('As companies grow, they start',
+                   'to view data as a resource',
+                   'that requires specialized',
+                   'planning and governance'))
+text2 = '\n'.join(('Medium sized companies pay', 
                    'ML/AI engineers more than',
-                   'managers. This may indicate that',
-                   'ML/AI skills are more valued'))
-an1 = ax.annotate(text1, xytext=(175000,2.70), xy=(149000,1.4), bbox=props,
+                   'managers. This may indicate',
+                   'that ML/AI skills are more',
+                   'valued'))
+an1 = ax.annotate(text1, xytext=(172000,2.70), xy=(149000,1.4), bbox=props,
                   fontsize=9, arrowprops=dict(facecolor='black', shrink=0.05))
-an2 = ax.annotate(text3, xytext=(175000,4.53), xy=(149000,3.2), bbox=props,
+an2 = ax.annotate(text2, xytext=(172000,4.53), xy=(149000,3.2), bbox=props,
                   fontsize=9, arrowprops=dict(facecolor='black', shrink=0.05))
-an3 = ax.annotate(text3, xytext=(175000,4.53), xy=(149000,5.0), bbox=props,
+an3 = ax.annotate(text2, xytext=(172000,4.53), xy=(149000,5.0), bbox=props,
                   fontsize=9, arrowprops=dict(facecolor='black', shrink=0.05))
 fig.savefig('../images/aveCatSize.png', bbox_inches='tight', dpi=300)
 

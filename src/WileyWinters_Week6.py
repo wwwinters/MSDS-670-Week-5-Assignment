@@ -97,8 +97,8 @@ textstr = '\n'.join(('Medium sized organizations',
                      'tend to pay more than smaller',
                      'and larger ones on average'))
 props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
-ax.text(0.7, 0.98, textstr, transform=ax.transAxes, fontsize=11,
-        verticalalignment='top', bbox=props)
+ax.annotate(textstr, xy=(0.6,150000), xytext=(-0.3,160000), bbox=props,
+            fontsize=10, arrowprops=dict(facecolor='black', shrink=0.05))
 ax.bar_label(ax.containers[0], fmt='${:,.0f}')
 fig.savefig('../images/aveCompanySize.png', bbox_inches='tight', dpi=300)
 
@@ -145,6 +145,6 @@ ax.legend(title='Work Setting')
 text1 = '\n'.join(('No longer do people have to',
                    'commute to the office to earn',
                    'a good salary'))
-ax.text(0.7, 0.55, text1, transform=ax.transAxes, fontsize=9,
-        verticalalignment='top', bbox=props)
+ax.annotate(text1, xytext=(173000,4.0), xy=(160000,4.9), bbox=props,
+            fontsize=9, arrowprops=dict(facecolor='black', shrink=0.05))
 fig.savefig('../images/aveCatWork.png', bbox_inches='tight', dpi=300)
